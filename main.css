@@ -49,10 +49,10 @@ body {
 
 h1, h2 {
     color: black;
-    font-family: 'UniversProHeavy';
+    font-family: "HelveticaNeue-CondensedBold";
     text-transform: uppercase;
     text-align: left;
-     font-size: 23px;    
+    font-size: 30px;    
 
     }
 
