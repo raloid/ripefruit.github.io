@@ -1,0 +1,78 @@
+html {
+    background: #4CBB17;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #4CBB17;
+    font-family: "UniversPro", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 75vw;
+    float: left;
+    padding: 1em 1em;
+}
+
+@font-face {
+    font-family: "UniversProBlack";
+    src: url('/fonts/UniversNextProBlack.ttf');
+    font-weight: black;
+}
+
+@font-face {
+    font-family: "UniversProRegular";
+    src: url('/fonts/UniversNextProRegular.ttf');
+    font-weight: normal;    
+    
+}
+
+@font-face {
+    font-family: "UniversProMedium";
+    src: url('/fonts/UniversNextProMedium.ttf');
+    font-weight: medium;    
+    
+}
+
+@font-face {
+    font-family: "UniversProBold";
+    src: url('/fonts/UniversNextProBold.ttf');
+    font-weight: bold;    
+}
+
+@font-face {
+    font-family: "UniversProHeavy";
+    src: url('/fonts/UniversNextProHeavy.ttf');
+    font-weight: heavy;
+}
+
+
+h1, h2 {
+    color: black;
+    font-family: 'UniversProHeavy';
+    text-transform: uppercase;
+    text-align: left;
+     font-size: 23px;    
+
+    }
+
+h1 {
+    margin-top: 0px;
+}
+
+a {
+    color: black;
+}
+
+p {
+    font-family: 'UniversProRegular';
+    text-transform: none;
+    line-height: 1.3em;
+    font-size: 17px;    
+    text-align: left;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
